@@ -2,20 +2,10 @@
 
 
 /*--------------------*/
-/* PORTFOLIO */
+/* DESIGN FONCTION TRI*/
 /*--------------------*/
 
 
-.test{
-	margin-top: 100px;
-}
-
-#portfolio{
-	display: inline;
-	float: left;
-	padding: 70px 0;
-	width: 100%;
-}
 
 .portfolio-area{
 	display: inline;
@@ -30,12 +20,14 @@
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
+
 }
 
 .portfolio-menu{
 	display: inline;
 	float: left;
 	width: 100%;
+	margin-top: 100px;
 }
 
 .portfolio-menu ul{
@@ -63,11 +55,22 @@
 .portfolio-container {
 	display: inline;
 	float: left;
-
-	margin-top: 60px;
 	width: 100%;
-	padding-bottom: 50px;
+	margin-top: 40px;
+	min-height: 285px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 .single-portfolio {
 	display: inline;
@@ -86,42 +89,18 @@
 .single-item>img{
 	width: 100%;
 	height: 100%;
-	object-fit:cover;
     display: block;
     height: 290px;
+    object-fit:cover;
     -webkit-transition: all 0.5s ease 0s;
 	-o-transition: all 0.5s ease 0s;
 	transition: all 0.5s ease 0s;
-}
-
-
-
-.single-item1{
-	width: 100%;
-	position: relative;
-	overflow: hidden;
-	padding: 1.5vh;
-	height: 639px;
-
-}
-
-
-.single-item1>img{
-	width: 100%;
-	height: 100%;
-	object-fit:cover;
-    display: block;
-
-    -webkit-transition: all 0.5s ease 0s;
-	-o-transition: all 0.5s ease 0s;
-	transition: all 0.5s ease 0s;
+	filter: grayscale(100%);
 }
 
 
 .single-item>img:hover{	
-	-webkit-transform: scale(1);	
-	    -ms-transform: scale(1);	
-	        transform: scale(1);	       
+	filter: grayscale(0%);
 }
 
 
@@ -129,8 +108,8 @@
     display: none;
     width: 285px;
 }
+
 .single-item-content { 
-	background-color: black; 
 	display: inline;
 	opacity: 0;
 	height: 100%;
@@ -141,22 +120,22 @@
 	width: 100%;
 	
 }
-.portfolio-social-icon {  
-	float: left;
-	display: inline;
-	padding: 110px 50px;
-	width: 100%;
-	padding-top:60px;
 
-}
+
+
+
+
+
 .single-item:hover .single-item-content{
 	opacity: 4;	
 }
 
 .single-item-content:hover{
-	background-color: black;	
-	
+	filter: grayscale(0%);
 }
+
+
+
 .portfolio-social-icon a {
 	color: white;
 	display: inline-block;
@@ -172,27 +151,41 @@
 	-o-transition: all 0.7s ease 0s;
 	transition: all 0.7s ease 0s;
 }
+
+
+
+
 .single-item-content:hover .fancybox,
 .single-item-content:hover .link-btn{
 	 transform: scale(0.9);
 } 
 
+
 .portfolio-title {
-	bottom: 0;
 	display:inline;
-	opacity: 0;
-	left: 0;
-	padding-bottom: 70px;
 	position: absolute;
 	text-align: center;
+
+
+	top: 0;
+	background-color: red;
+	opacity: 0;
+
 	width: 100%;
+
 	-webkit-transition: all 0.7s ease 0s;
 	-o-transition: all 0.7s ease 0s;
 	transition: all 0.7s ease 0s;
+
+
 }
+
+
 .single-item:hover .portfolio-title{
 	opacity: 1;
 }
+
+
 .portfolio-title h4 {
 	color: #fff7f7;
 	font-size: 16px;
@@ -200,19 +193,13 @@
 	margin-bottom: 0;
 	text-transform: uppercase;
 }
+
+
 .portfolio-title span{
 	color: #fff7f7;
 	font-size: 12px;
 	font-family: "Raleway",sans-serif;
 }
-
-
-
-
-
-
-
-
 
 
 onial-slider .slick-next:before{
@@ -231,8 +218,6 @@ onial-slider .slick-next:before{
 }
 
 
-
-
 .testimonial-slider .slick-prev{
 	left: 0;
 	z-index: 9999;
@@ -248,5 +233,28 @@ a.link-btn {
 	
 
 }
+
+
+
+
+
+
+
+
+.portfolio-social-icon {  
+	float: left;
+	display: inline;
+	padding: 110px 50px;
+	width: 100%;
+	padding-top:60px;
+
+}
+
+
+
+
+
+
+
 
 
