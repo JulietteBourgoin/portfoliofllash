@@ -65,6 +65,8 @@
 .single-portfolio {
 	display: inline;
 	float: left;
+	padding: 10px;
+
 	
 }
 
@@ -72,7 +74,10 @@
 	width: 100%;
 	position: relative;
 	overflow: hidden;
-	margin: 1.5vh;
+		-webkit-transition: all 0.7s ease 0s;
+	-o-transition: all 0.7s ease 0s;
+	transition: all 0.7s ease 0s;
+
 }
 
 .single-item>img{
@@ -125,6 +130,19 @@
 }
 .single-item:hover .single-item-content{
 	opacity: 4;	
+
+
+}
+
+
+.single-item:hover{
+	    -webkit-transform: scale(1.07);
+        -ms-transform: scale(1.07);
+        transform: scale(1.07);
+           -webkit-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
+
 }
 
 
@@ -149,10 +167,9 @@
 } 
 
 .portfolio-title {
-	background-color: #5d197b;
+	background-color: rgb(116, 45, 174,0.95);
 	bottom: 0;
 	display:inline;
-	opacity: 0;
 	left: 0;
 	position: absolute;
 	text-align: center;
@@ -165,8 +182,9 @@
 
 .single-item:hover .portfolio-title{
 	opacity: 1;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 	padding-top: 20px;
+
 
 }
 
@@ -210,6 +228,7 @@ onial-slider .slick-next:before{
 	z-index: 9999;
 	top: 35%;
 }
+
 .testimonial-slider .slick-next{
 	right: 40px;
 	z-index: 9999;
@@ -217,9 +236,14 @@ onial-slider .slick-next:before{
 }
 
 a.link-btn {
-	
-
 }
+
+
+.active{
+	color:#791ca2;
+	border-bottom: solid 1px #791ca2;
+}
+
 
 
 
