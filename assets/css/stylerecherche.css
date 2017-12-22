@@ -246,7 +246,10 @@ a.link-btn {
 
 
 
+.portfolio-menu .active{
+	border-bottom: solid 1px #791ca2;
 
+}
 
 
 
