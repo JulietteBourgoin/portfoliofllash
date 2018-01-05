@@ -9,7 +9,7 @@ truc much
    ========================================================================== */
 
 body {
-	font-family: dosis;
+	font-family: nothing_you_could_do;
 
 }
 
@@ -32,15 +32,15 @@ margin: -15px;
 
 
 .main_menu_bg .navbar-default .navbar-nav > .active > a {
-color: yellow;
+color: #DD4124;
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-color: #785d99;
+color: #009473;
 }
 
-.menu-scroll{
-background-color:#2a2a2a;
+.menu-scroll {
+background-color:#DECDBE;
 transition: 1s;
 }
 
@@ -199,6 +199,13 @@ font-size: 1.9em;
 /*===============
 STYLE DE TANIA FOOTER
 =================*/
+
+
+.footer {
+	background-color: #DECDBE;
+	}
+
+
 .single_right_footer p {
 	font-size: 10pt;
 	text-align: justify;
@@ -208,19 +215,24 @@ STYLE DE TANIA FOOTER
 
 
 
-
-
 .single_right_footer h4 {
 	
 	font-family: dosis;
 
 }
 
+.list-inline > li > a:hover, .list-inline  > li > a:focus {
+color: #DD4124;
+}
+
+.single_right_footer  > ul > li > a:hover, .single_right_footer > ul > li > a:focus {
+color: #DD4124;
+}
 
 
-
-
-
+.fo_bottom_socail > a:hover, .fo_bottom_socail  > a:focus {
+color: #DD4124;
+}
 
 
 
