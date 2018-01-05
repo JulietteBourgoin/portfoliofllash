@@ -9,13 +9,13 @@ truc much
    ========================================================================== */
 
 body {
-	font-family: nothing_you_could_do;
+	font-family: GildaDisplay-Regular;
 
 }
 
 a, p, li, ul, h2, h4
 .row {
-	font-family: dosis;
+	font-family: GildaDisplay-Regular;
 
 }
 
@@ -47,7 +47,7 @@ transition: 1s;
 
 .single_slider h2{
 font-size:3.5rem;
-font-family: dosis;
+font-family: JosefinSans-Regular;
 font-weight: bold;
 }
 
@@ -94,7 +94,7 @@ z-index: 2;
 }
 
 .single_slider p {
-font-family: dosis;
+font-family: NothingYouCouldDo;
 max-width: 100%;
 font-size: 1.9em;
 }
@@ -175,13 +175,13 @@ font-size: 1.9em;
 /* ACTUALITES */
 
 .petit {
-	font-family: dosis;
+	font-family: GildaDisplay-Regular;
 
 
 }
 
 .text-center p {
-	font-family: dosis;
+	font-family: GildaDisplay-Regular;
 
 }
 
@@ -210,14 +210,14 @@ STYLE DE TANIA FOOTER
 	font-size: 10pt;
 	text-align: justify;
 	margin: 1px;
-	font-family: dosis;
+	font-family: GildaDisplay-Regular;
 }
 
 
 
 .single_right_footer h4 {
 	
-	font-family: dosis;
+	font-family: GildaDisplay-Regular;
 
 }
 
