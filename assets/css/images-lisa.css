@@ -6,6 +6,10 @@
 
 }
 
+.titre-oeuvre { 
+	margin-left: 20px;
+
+}
 .back h3 {
 	color: #6f4d99;
 	font-size: 15px;
@@ -14,19 +18,20 @@
 
 }
 
-
-.big-mama img
-{
-width: 100%;
-
-	}
-
-.little-mama img {
-width: 20%;
-float: left;
-display: inline;
-margin-right: 15px;
-margin-top: 20px;
+.big-mama {
+	margin-bottom: 25px;
 
 }
 
+.little-mama {
+	height: 197px;
+	margin-bottom: 25px;
+
+}
+
+img{
+	width: 100%;
+	height: 100%;
+	object-fit:cover;
+
+}
