@@ -1,0 +1,32 @@
+.portfolio-menu {
+	color: #6f4d99;
+	font-size: 12px;
+	font-family: GildaDisplay-Regular;
+
+
+}
+
+.back h3 {
+	color: #6f4d99;
+	font-size: 15px;
+	font-family: GildaDisplay-Regular;
+	float: left;
+
+}
+
+
+.big-mama img
+{
+width: 100%;
+
+	}
+
+.little-mama img {
+width: 20%;
+float: left;
+display: inline;
+margin-right: 15px;
+margin-top: 20px;
+
+}
+
