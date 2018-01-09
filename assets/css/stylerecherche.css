@@ -165,7 +165,9 @@
 } 
 
 .portfolio-title {
-	background-color: rgb(116, 45, 174,0.95);
+	background-color : rgba(113,60,179,0.95);
+	background-color : hsla(267,50%,47%,0.95);
+	background-color : #713CB3F2; /* Norme W3C, CSS4 */
 	bottom: 0;
 	display:inline;
 	left: 0;
@@ -234,7 +236,7 @@ onial-slider .slick-next:before{
 }
 
 
-.active{
+.active {
 	color:#791ca2;
 	border-bottom: solid 1px #791ca2;
 }
@@ -247,13 +249,13 @@ onial-slider .slick-next:before{
 
 
 .portfolio-title .active{
-		padding-bottom: 30px;
+	padding-bottom: 30px;
 	padding-top: 20px;
 	
 }
 
 .portfolio-title:focus {
-		background-color: rgb(116, 45, 174,0.95);
+	background-color: rgb(116, 45, 174,0.95);
 	bottom: 0;
 	display:inline;
 	left: 0;
@@ -268,10 +270,10 @@ onial-slider .slick-next:before{
 
 
 .single-item:focus{
-	    -webkit-transform: scale(1.07);
-        -ms-transform: scale(1.07);
-        transform: scale(1.07);
-           -webkit-transition: all 0.5s ease 0s;
+	-webkit-transform: scale(1.07);
+	-ms-transform: scale(1.07);
+	transform: scale(1.07);
+	-webkit-transition: all 0.5s ease 0s;
 	-o-transition: all 0.5s ease 0s;
 	transition: all 0.5s ease 0s;
 
