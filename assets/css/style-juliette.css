@@ -1,7 +1,8 @@
+
 /*
 
 STYLE - JULIETTE - PERSONNALISATION DU TEMPLATE 
-truc much
+
 */
 
 /* ==========================================================================
@@ -9,15 +10,10 @@ truc much
    ========================================================================== */
 
 body {
-	font-family: GildaDisplay-Regular;
+	font-family: helvetica;
 
 }
 
-a, p, li, ul, h2, h4
-.row {
-	font-family: GildaDisplay-Regular;
-
-}
 
 /* 1 ER ECRAN */
 
@@ -32,23 +28,21 @@ margin: -15px;
 
 
 .main_menu_bg .navbar-default .navbar-nav > .active > a {
-color: #009473;
+color: yellow;
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-color: #009473;
+color: #3de8dc;
 }
 
-.menu-scroll {
-background-color:#DECDBE;
+.menu-scroll{
+background-color:#2a2a2a;
 transition: 1s;
 }
 
 
 .single_slider h2{
 font-size:3.5rem;
-font-family: JosefinSans-Regular;
-font-weight: bold;
 }
 
 .navbar-brand{
@@ -94,7 +88,7 @@ z-index: 2;
 }
 
 .single_slider p {
-font-family: NothingYouCouldDo;
+font-family: helvetica;
 max-width: 100%;
 font-size: 1.9em;
 }
@@ -173,120 +167,6 @@ font-size: 1.9em;
 
 
 /* ACTUALITES */
-
-.petit {
-	font-family: GildaDisplay-Regular;
-
-
-}
-
-.text-center p {
-	font-family: GildaDisplay-Regular;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/*===============
-STYLE DE TANIA FOOTER
-=================*/
-
-
-.footer {
-	background-color: #DECDBE;
-	}
-
-
-.single_right_footer p {
-	font-size: 10pt;
-	text-align: justify;
-	margin: 1px;
-	font-family: GildaDisplay-Regular;
-}
-
-
-
-.single_right_footer h4 {
-	
-	font-family: GildaDisplay-Regular;
-
-}
-.footer .footer_menu li a {
-	
-	font-family: GildaDisplay-Regular;
-
-}
-
-.list-inline > li > a:hover, .list-inline  > li > a:focus {
-color: #009473;
-}
-
-.single_right_footer  > ul > li > a:hover, .single_right_footer > ul > li > a:focus {
-color: #009473;
-}
-
-
-.fo_bottom_socail > a:hover, .fo_bottom_socail  > a:focus {
-color: #009473;
-}
-
-
-
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-/*
-
-STYLE - TANIA - DEUXIÈME PAGE - TRI
-*/
-
-
-
-
-
-
-
-..portfolio-menu ul li, .portfolio-title {
-color: #009473;
-font-family: GildaDisplay-Regular;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
