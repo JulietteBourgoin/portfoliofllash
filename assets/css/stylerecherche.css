@@ -183,7 +183,6 @@
 	padding-bottom: 30px;
 	padding-top: 20px;
 
-
 }
 
 
@@ -195,6 +194,8 @@
 	text-transform: uppercase;
 	font-family: GildaDisplay-Regular;
 }
+
+
 .portfolio-title span{
 	color: #fff7f7;
 	font-size: 12px;
@@ -220,13 +221,12 @@ onial-slider .slick-next:before{
 }
 
 
-
-
 .testimonial-slider .slick-prev{
 	left: 0;
 	z-index: 9999;
 	top: 35%;
 }
+
 
 .testimonial-slider .slick-next{
 	right: 40px;
@@ -244,8 +244,77 @@ onial-slider .slick-next:before{
 
 .portfolio-menu .active{
 	border-bottom: solid 1px #791ca2;
+}
+
+
+.portfolio-title .active{
+		padding-bottom: 30px;
+	padding-top: 20px;
+	
+}
+
+.portfolio-title:focus {
+		background-color: rgb(116, 45, 174,0.95);
+	bottom: 0;
+	display:inline;
+	left: 0;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	-webkit-transition: all 0.7s ease 0s;
+	-o-transition: all 0.7s ease 0s;
+	transition: all 0.7s ease 0s;
+	
+}
+
+
+.single-item:focus{
+	    -webkit-transform: scale(1.07);
+        -ms-transform: scale(1.07);
+        transform: scale(1.07);
+           -webkit-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
 
 }
+
+
+
+/*--------------------*/
+/* DESIGN APERCU DU CONTENU - GALLERIE DE TRAVAUX  - MODAL */
+/*--------------------*/
+
+.modal{
+margin:0;
+
+}
+
+.modal-header{
+border: none;
+}
+
+
+.modal-dialog{
+width: 80%;
+margin:0px;
+}
+
+
+.modal-content {
+background-color: red;
+width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
