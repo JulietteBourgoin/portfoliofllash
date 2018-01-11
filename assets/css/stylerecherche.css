@@ -1,10 +1,10 @@
 
 
 /*--------------------*/
-/* DESIGN GALLERIE DE TRAVAUX */
+/* PAGE GALLERIE DE TRAVAUX */
 /*--------------------*/
 
-
+/* DESIGN GALLERIE DE TRAVAUX */
 
 .portfolio-area{
 	display: inline;
@@ -59,13 +59,15 @@
 	padding-bottom: 50px;
 }
 
+
+
+
 .single-portfolio {
 	display: inline;
 	float: left;
 	padding: 10px;
-
-	
 }
+
 
 .single-item{
 	width: 100%;
@@ -103,7 +105,7 @@
 
 #mixit-container .mix{
     display: none;
-    width: 285px;
+
 }
 
 
@@ -235,14 +237,8 @@ onial-slider .slick-next:before{
 }
 
 
-.active {
+.portfolio-menu  .active{
 	color:#791ca2;
-	border-bottom: solid 1px #791ca2;
-}
-
-
-
-.portfolio-menu .active{
 	border-bottom: solid 1px #791ca2;
 }
 
@@ -316,13 +312,20 @@ background-color: white;
 /* FORME DU CONTENU DE LA MODAL */
 /*--------------------*/
 
+h3{
+text-align: left;
+}
+
+.head_title{
+margin-bottom: 0;
+}
 
 .contenu{
 margin-top: 65px;
 }
 
-.contenu-forme{
-
+.contenu-travaux{
+text-align: justify;
 }
 
 
