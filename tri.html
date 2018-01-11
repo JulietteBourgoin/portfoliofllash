@@ -8,49 +8,45 @@
 <!-- HEAD -->
 
     <head>
+        
+        <!-- Meta - referencement -->
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title> FFLASH - Portfolio </title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Head titre -->
+        <title>FLLASH - Portfolio</title>
+
+
+        <!-- Icone - apple -->
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
          <!-- STYLES -->
 
-          <!-- LIEN FONT GOOGLE -->
-                <!-- <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,600,700' rel='stylesheet' type='text/css'> -->
-
+        <!-- Styles Bootstrap  -->
         <link rel="stylesheet" href="assets/css/fonticons.css">
-        <link rel="stylesheet" href="assets/fonts/stylesheet.css">
         <link rel="stylesheet" href="assets/css/font-awesome.min.css">
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">
 
-
-        <!--For Plugins external css-->
+        <!--Animation - apparition du contenu -->
         <link rel="stylesheet" href="assets/css/plugins.css" />
 
-
-        <!--Theme custom template base css -->
+        <!--Theme custom template - base css  -->
         <link rel="stylesheet" href="assets/css/style.css">
-     
 
-        <!--Css - gallerie de travaux  -->
-        <link rel="stylesheet" href="assets/css/stylerecherche.css">
-
-        <!--Css - equipes -->
-
+        <!--Theme custom equipe  -->
         <link rel="stylesheet" href="assets/css/style-tania.css" />
-
         <link rel="stylesheet" href="assets/css/images-lisa.css" />
-
-        <!--Theme Responsive css-->
-        <link rel="stylesheet" href="assets/css/responsive.css" />
-
-
-        <!-- SCRIPTS -->
+        <link rel="stylesheet" href="assets/css/stylerecherche.css" />
+        <link rel="stylesheet" href="assets/css/menu-fond.css" />
 
 
 
+        <!-- GOOGLE FONTS -->
+         <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,600,700' rel='stylesheet' type='text/css'>
+         <link rel="stylesheet" href="assets/fonts/stylesheet.css">
 
     </head>
 
@@ -65,7 +61,7 @@
 		<div class='preloader'><div class='loaded'>&nbsp;</div></div>
         
 
-  <!-- HEADER -->
+        <!-- HEADER - MENU -->
 
         <header id="main_menu" class="header">
             <div class="main_menu_bg navbar-fixed-top">
@@ -73,46 +69,43 @@
                     <div class="row">
                         <div class="nave_menu wow fadeInUp" data-wow-duration="1s">
                             <nav class="navbar navbar-default" id="navmenu">
-                                <div class="container-fluid"> 
+                                <div class="container-fluid">
 
-                                    <!-- Brand and toggle get grouped for better mobile display -->
-
+                                    <!-- BOUTON HAMBURGER - Brand and toggle get grouped for better mobile display -->
                                     <div class="navbar-header">
-
-                                       <!--  RESPONSIVE - BOUTON TOGGLE -->
                                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                                             <span class="sr-only">Toggle navigation</span>
                                             <span class="icon-bar"></span>
                                             <span class="icon-bar"></span>
                                             <span class="icon-bar"></span>
-                                        </button>   
+                                        </button>
 
-                                        <!--  RESPONSIVE - BOUTON TOGGLE --> 
-                                        <a class="navbar-brand" href="#"><img class="img-responsive" src="assets/images/logo.png" alt=""/></a>
+                                    <!-- IMAGE - LOGO -->
+                                        <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt=""/></a>
 
-                                    </div> 
+                                    </div>
 
-                                    <!-- MENU LIENS -->
+                                    <!-- MENU - LIENS -->
                                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
                                         <ul class="nav navbar-nav navbar-right">
-                                            <li class="active"><a href="index.html">Accueil</a></li>
-                                            <li><a href="#domain">Masters</a></li>
-                                            <li><a href="#pricing">Licences</a></li>
-                                            <li><a href="#service">Actualités</a></li>
+                                            <li><a href="index.html">Accueil</a></li>
+                                            <li class="active" ><a href="#master">Masters</a></li>
+                                            <li><a href="#licence">Licences</a></li>
+                                            <li><a href="index.html">Actualités</a></li>
                                         </ul>
 
                                     </div>
 
                                 </div>
                             </nav>
-                        </div>  
+                        </div>
                     </div>
                 </div>
             </div>
-        </header> 
+        </header>
 
-        <!--End of header -->
+        <!-- FIN - HEADER-->
 
 
 <!-- FONCTION GALLERIE DE TRAVAUX -->
@@ -122,33 +115,28 @@
                     <!-- Portfolio content -->
                     <div class="portfolio-content">
 
-                        <!-- MENU - DE TRI -->
-
-                       <div class="portfolio-menu">
+                      <!-- MENU - DE TRI -->
+                       <div class="portfolio-menu ">
                         <div class="title-area">
                          <ul>
                            <li class="filter" data-filter="all">Tous</li>
                            <li class="filter" data-filter=".m1">Masters D1</li>
                            <li class="filter" data-filter=".m2">Masters D2</li>
-                           <li class="filter" data-filter=".l1">License 1</li>
-                           <li class="filter" data-filter=".l2">License 2</li>
+                           <li class="filter" data-filter=".l1">Licence 1</li>
+                           <li class="filter" data-filter=".l2">Licence 2</li>
                          </ul>
                        </div>
 
 
-
                        <!-- GALLERIE DE TRAVAUX -->
-
-
-
 
                        <div id="mixit-container" class="portfolio-container">
 
-                        
+
                         <!-- EXEMPLE TRAVAUX 1 -->
 
 
-                        <div class="single-portfolio mix m1" type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
+                        <div class="single-portfolio mix col-lg-3 col-md-6 col-xs-12 m1" type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
                          
                             <div class="single-item ">
 
@@ -159,112 +147,106 @@
                                <!-- INFORMATIONS VISIBLES EN HOVER -->
                                <div class="portfolio-title">
                                 <h4>Travaux 02</h4>
-                                <span>Peinture, dggravure, applications etc</span>
+                                <span>Peinture, gravure, applications etc</span>
                               </div>
 
                             </div> 
                           </div> 
 
             
-                      </div>
+                        </div>
 
-                       <!-- MODAL CONTENU TRAVAUX 1 -->
+                            <!-- MODAL CONTENU TRAVAUX 1 -->
               
 
-                    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                      <div class="modal-dialog" role="document">
-                        <div class="modal-content">
+                            <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                              <div class="modal-dialog" role="document">
+                                <div class="modal-content">
 
-                            <!-- HEADER DE LA MODAL -->
+                                  <!-- HEADER DE LA MODAL -->
 
-                          <div class="modal-header">
-                                <!-- CROIX POUR FERMER -->
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                              <span aria-hidden="true">&times;</span>
-                            </button>
+                                  <div class="modal-header">
 
+                                   
+
+                                  </div>
+
+                                  <!-- CONTENU DE LA MODAL -->
+                                  <div class="modal-body">
+                                    <div class="container">
+
+                                      <!-- Portfolio content -->
+                                      <div class="contenu">
+                                       <div class="contenu-forme">
+
+                                    <!-- CROIX POUR FERMER -->
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                    </button>
+
+                                        <!-- INFO OEUVRE -->
+                                        <div class="col-lg-8 titre-oeuvre">
+                                          <div class="head_title text-center wow fadeInDown" data-wow-duration="1s">
+
+                                          <h2>TITRE</h2>
+                                          <h3>Noms des élèves</h3>
+
+                                          <p class="contenu-travaux">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                          </div>
+</div>
+                                        <!-- GALLERIE DE TRAVAUX -->
+
+
+                                        <div class="portfolio-container">
+
+                                          <div class="col-lg-8 big-mama">                            
+                                            <img class="img" src="assets/images/2.png" id="image">
+                                          </div>
+
+                                          <div class="col-lg-4 little-mama">  
+                                            <img class="img" src="assets/images/2.png" id="image">
+                                          </div>
+
+                                          <div class="col-lg-4 little-mama">  
+                                            <img class="img" src="assets/images/2.png" id="image">
+                                          </div>
+
+                                          <div class="col-lg-4 little-mama">  
+                                            <img class="img" src="assets/images/2.png" id="image">
+                                          </div>
+
+                                        </div>
+
+                                        <!-- BOUTON - RETOUR -->
+
+                                        <div class="col-lg-12 title-area">
+                                         <ul>
+                                           <a class=" back" data-dismiss="modal" aria-label="Close" href="tri-test.html"> <h3> Retour </h3> </a>
+                                         </ul>
+                                       </div>
+
+                                        
+                                     </div>
+                                   </div>
+                                 </div>
+                               </div>
+
+                               <!-- FOOTER MODAL -->
+                               <div class="modal-footer">                   
+                              </div>
+                          
                           </div>
-
-                                <!-- CONTENU DE LA MODAL -->
-                          <div class="modal-body">
-
-                             <div class="container">
-             
-                    <!-- Portfolio content -->
-                    <div class="contenu">
-
-                    
-
-                       <div class="contenu-forme">
-
-                        <!-- INFO OEUVRE -->
-                        <div class="col-lg-8 titre-oeuvre">
-                          <h1>TITRE DE L'OEUVRE</h1>
-                          <h2>Noms des élèves</h2>
-                          <p>Un jour j'irai la bas, Un jour j'irai la bas, Un jour j'irai la bas, Un jour j'irai la bas, Un jour j'irai la bas, Un jour j'irai la bas, Un jour j'irai la bas, Un jour j'irai la bas, Un jour j'irai la bas, Un jour j'irai la bas, Un jour j'irai la bas, Un jour j'irai la bas, </p>
-                        </div>
-
-                       <!-- GALLERIE DE TRAVAUX -->
-
-  
-                       <div class="portfolio-container">
-
-
-
-                        <div class="col-lg-8 big-mama">                            
-                          <img class="img" src="assets/images/2.png" id="image">
-                        </div>
-
-                        <div class="col-lg-4 little-mama">  
-                          <img class="img" src="assets/images/2.png" id="image">
-                        </div>
-
-                        <div class="col-lg-4 little-mama">  
-                          <img class="img" src="assets/images/2.png" id="image">
-                        </div>
-
-                        <div class="col-lg-4 little-mama">  
-                          <img class="img" src="assets/images/2.png" id="image">
-                        </div>
-
-                      </div>
-
-
-
-
-                      <!-- EXEMPLE TRAVAUX 1 -->
-
-
-
-                            <!-- retour -->
-
-
-                        <div class="col-lg-12 title-area">
-                         <ul>
-                           <a class=" back" data-dismiss="modal" aria-label="Close" href="tri-test.html"> <h3> Retour </h3> </a>
-                         </ul>
-                       </div>
-
-                  
-                   </div>
-                 </div>
-               </div>
-
-                          </div>
-
-                              <!-- FOOTER MODAL -->
-                          <div class="modal-footer">
-                          <!--  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>-->
-                          </div>
-
-
-                        </div>
                       </div>
                     </div>
 
+                      <!-- FIN  MODAL TRAVAUX 1-->
 
-                    <!-- FIN EXEMPLE TRAVAUX 1 -->
+                <!-- FIN EXEMPLE TRAVAUX 1 -->
 
 
 
@@ -272,7 +254,7 @@
                         <!-- EXEMPLE TRAVAUX 2 -->
 
 
-               <div class="single-portfolio mix m1">
+               <div class="single-portfolio mix col-lg-3 col-md-6 col-xs-12 m1">
                           
                             <div class="single-item ">
 
@@ -283,7 +265,7 @@
                                <!-- INFORMATIONS VISIBLES EN HOVER -->
                                <div class="portfolio-title">
                                 <h4>Travaux 02</h4>
-                                <span>Peinture, dggravure, applications etc</span>
+                                <span>Peinture, gravure, applications etc</span>
                               </div>
 
                             </div> 
@@ -301,7 +283,7 @@
                                             <!-- EXEMPLE TRAVAUX 1 -->
 
 
-                        <div class="single-portfolio mix m1">
+                        <div class="single-portfolio mix col-lg-3 col-md-6 col-xs-12 m1">
                         
                             <div class="single-item ">
 
@@ -312,7 +294,7 @@
                                <!-- INFORMATIONS VISIBLES EN HOVER -->
                                <div class="portfolio-title">
                                 <h4>Travaux 02</h4>
-                                <span>Peinture, dggravure, applications etc</span>
+                                <span>Peinture, gravure, applications etc</span>
                               </div>
 
                             </div> 
@@ -330,7 +312,7 @@
                         <!-- EXEMPLE TRAVAUX 2 -->
 
 
-               <div class="single-portfolio mix m1">
+               <div class="single-portfolio mix col-lg-3 col-md-6 col-xs-12 m1">
                         
                             <div class="single-item ">
 
@@ -341,7 +323,7 @@
                                <!-- INFORMATIONS VISIBLES EN HOVER -->
                                <div class="portfolio-title">
                                 <h4>Travaux 02</h4>
-                                <span>Peinture, dggravure, applications etc</span>
+                                <span>Peinture, gravure, applications etc</span>
                               </div>
 
                             </div> 
@@ -351,51 +333,99 @@
                       </div>
 
 
-                              
+                          
+                              <!-- FIN EXEMPLE TRAVAUX 2 -->
 
+
+
+                        <!-- EXEMPLE TRAVAUX 2 -->
+
+
+               <div class="single-portfolio mix col-lg-3 col-md-6 col-xs-12 m1">
+                        
+                            <div class="single-item ">
+
+                               <!-- IMAGE DE LA DIV -->
+                              <img src="assets/images/4.png" alt="img">
+                              <div class="single-item-content">
+
+                               <!-- INFORMATIONS VISIBLES EN HOVER -->
+                               <div class="portfolio-title">
+                                <h4>Travaux 02</h4>
+                                <span>Peinture, gravure, applications etc</span>
+                              </div>
+
+                            </div> 
+                          </div> 
+
+                 
+                      </div>
+
+
+                          
+                              <!-- FIN EXEMPLE TRAVAUX 2 -->
+                    
+
+                        <!-- EXEMPLE TRAVAUX 2 -->
+
+
+               <div class="single-portfolio mix col-lg-3 col-md-6 col-xs-12 m1">
+                        
+                            <div class="single-item ">
+
+                               <!-- IMAGE DE LA DIV -->
+                              <img src="assets/images/4.png" alt="img">
+                              <div class="single-item-content">
+
+                               <!-- INFORMATIONS VISIBLES EN HOVER -->
+                               <div class="portfolio-title">
+                                <h4>Travaux 02</h4>
+                                <span>Peinture, gravure, applications etc</span>
+                              </div>
+
+                            </div> 
+                          </div> 
+
+                 
+                      </div>
+
+
+                          
+                              <!-- FIN EXEMPLE TRAVAUX 2 -->
+                    
+
+                        <!-- EXEMPLE TRAVAUX 2 -->
+
+
+               <div class="single-portfolio mix col-lg-3 col-md-6 col-xs-12 m1">
+                        
+                            <div class="single-item ">
+
+                               <!-- IMAGE DE LA DIV -->
+                              <img src="assets/images/4.png" alt="img">
+                              <div class="single-item-content">
+
+                               <!-- INFORMATIONS VISIBLES EN HOVER -->
+                               <div class="portfolio-title">
+                                <h4>Travaux 02</h4>
+                                <span>Peinture, gravure, applications etc</span>
+                              </div>
+
+                            </div> 
+                          </div> 
+
+                 
+                      </div>
+
+
+                          
                               <!-- FIN EXEMPLE TRAVAUX 2 -->
                     
                     
-
-
-                              <!-- VERSION - PC & PREVISUALISATION DU CONTENU - MODAL -->
+    
 
 
                            
-
-
-                              <!-- FIN CONTENU - PREVISUALISATION   -->
-
-
-
-                              <!-- EXEMPLE TRAVAUX 4 -->
-
-
-                              <div class="single-portfolio mix l2">
-                                <a class="travaux2" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample2">   
-                                  <div class="single-item ">
-
-                                    <img src="assets/images/1.png" alt="img">
-
-                                    <!-- IMAGE DE LA DIV -->
-
-                                    <div class="single-item-content">
-
-                                     <!-- INFORMATIONS VISIBLES EN HOVER -->
-
-                                     <div class="portfolio-title">
-                                      <h4>Travaux 02</h4>
-                                      <span>Peinture, dggravure, applications etc</span>
-                                    </div>
-
-                                  </div> 
-                                </div> 
-                              </a>
-
-                            </div>
-
-
-                            <!-- FIN EXEMPLE TRAVAUX 4 -->
 
             
 
@@ -414,12 +444,7 @@
 
 
 
-
-
-
-
-
-    <!-- FOOTER PAGE TRI  
+        <!-- FOOTER -->
 
         <section id="footer" class="footer sections">
             <div class="container">
@@ -457,7 +482,7 @@
                                             <p>Jeudi : 9H00 - 11H00 / 13H30 - 16H00</p>
                                             <p>Vendredi : 9H00 - 11h00 / 13H30 - 16H00</p>
 
-                                            
+
                                         </div>
                                     </div>
                                     <div class="col-sm-3 col-xs-6">
@@ -467,7 +492,7 @@
                                                 <li><a href="https://twitter.com/ArtsUVHC" target="_blank"><i class="lnr lnr-chevron-right"></i> Twitter</a></li>
                                                 <li><a href="https://vimeo.com/user10433118" target="_blank"><i class="lnr lnr-chevron-right"></i> Vimeo</a></li>
                                                 <li><a href="https://www.flickr.com/photos/97374037@N08/" target="_blank"><i class="lnr lnr-chevron-right"></i> Flickr</a></li>
-                                               
+
                                             </ul>
                                         </div>
                                     </div>
@@ -483,24 +508,41 @@
                                     </div>
                                 </div>
                             </div>
-                        </div> 
+                        </div>
                         <div class="col-sm-3 col-xs-12">
                             <div class="fo_bottom_socail wow fadeIn" data-wow-duration="2.3s">
                                 <a href="#"> 03.27.51.76.50</a>
                                 <a href="mailto:arts.com@univ-valenciennes.fr">arts@univ-valenciennes.fr</a>
-                               
+
                             </div>
-                        </div> 
+                        </div>
                     </div>
-                </div>      
+                </div>
             </div>
         </section>
 
--->
+        
+
+        <!-- Animation - footer -->
+
+        <footer id="coppyrights" class="coppyrights">
+         <div class="container-fluid">
+             <div class="row">
+                <div class="coppyright">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- FIN - FOOTER -->
 
 
 
-        <!-- End of footer page tri </p> -->
+
+
+
+
+
 
 <script type="text/javascript">
 
