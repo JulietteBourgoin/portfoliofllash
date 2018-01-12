@@ -360,12 +360,18 @@ STYLE - TANIA - DEUXIÈME PAGE - TRI
 
 
 
-..portfolio-menu ul li, .portfolio-title {
+.portfolio-menu ul li, .portfolio-title {
 color: #5F4B8B;
 font-family: 'Gilda Display', serif;
 
 }
 
+
+.modal-body h3 {
+color: #5F4B8B;
+font-family: 'Gilda Display', serif;
+
+}
 
 
 
