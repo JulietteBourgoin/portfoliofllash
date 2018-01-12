@@ -150,7 +150,7 @@ jQuery(document).ready(function ($) {
    
 
        $('.videoscroll').click(function(){
-    $('html, body').animate({ scrollTop: 700 }, 1000);
+    $('html, body').animate({ scrollTop: 600 }, 1000);
       return false;
     }); 
    
