@@ -1,0 +1,36 @@
+.portfolio-menu {
+	color: #6f4d99;
+	font-size: 12px;
+	font-family: GildaDisplay-Regular;
+
+
+}
+
+.titre-oeuvre { 
+	/*margin-left: 20px;*/
+
+}
+.back h3 {
+	color: #6f4d99;
+	font-size: 15px;
+	font-family: GildaDisplay-Regular;
+	float: left;
+
+}
+
+.big-mama {
+	margin-bottom: 25px;
+
+}
+
+.little-mama {
+	height: 197px;
+	margin-bottom: 25.5px;
+
+}
+
+img{
+	width: 100%;
+	height: 100%;
+	object-fit:cover;
+}

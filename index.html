@@ -1,51 +1,55 @@
 <!doctype html>
 
-<!-- COMPATIBILITE INTERNET EXPLORER -->
-
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js tania lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!-->
-
-<html class="no-js" lang=""> <!--<![endif]-->
+<html lang=""> 
 
 <!-- HEAD -->
 
     <head>
+
+        <!-- Meta - referencement -->
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title> FFLASH - Portfolio </title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Head titre -->
+        <title>FLLASH - Portfolio</title>
+
+
+        <!-- Icone - apple -->
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
          <!-- STYLES -->
 
-        <!--<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,600,700' rel='stylesheet' type='text/css'>-->
+        <!-- Styles Bootstrap  -->
         <link rel="stylesheet" href="assets/css/fonticons.css">
-        <link rel="stylesheet" href="assets/fonts/stylesheet.css">
         <link rel="stylesheet" href="assets/css/font-awesome.min.css">
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <!--        <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">-->
+        <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">
 
-        <!--For Plugins external css-->
+        <!--Animation - apparition du contenu -->
         <link rel="stylesheet" href="assets/css/plugins.css" />
 
-        <!--Theme custom css -->
+        <!--Theme custom template - base css  -->
         <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/style-juliette.css" />
-        <link rel="stylesheet" href="assets/css/stylelisa.css" />
+
+        <!--Theme custom equipe  -->
+        <link rel="stylesheet" href="assets/css/images-lisa.css" />
+        <link rel="stylesheet" href="assets/css/stylerecherche.css" />
         <link rel="stylesheet" href="assets/css/style-tania.css" />
-        <link rel="stylesheet" href="assets/css/style-ambre.css" />
-
-        <!--Theme Responsive css-->
-        <link rel="stylesheet" href="assets/css/responsive.css" />
 
 
-        <!-- SCRIPTS -->
-        <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <!-- GOOGLE FONTS -->
+         <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,600,700' rel='stylesheet' type='text/css'>
+         <link rel="stylesheet" href="assets/fonts/stylesheet.css">
+         <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
+         <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+         <link href="https://fonts.googleapis.com/css?family=Gilda+Display" rel="stylesheet">
+
 
     </head>
+
+<!-- FIN - HEAD -->
 
 
  <!-- BODY -->
@@ -53,17 +57,13 @@
 
     <body data-spy="scroll" data-target="#navmenu">
 
-        <!-- COMPATIBILITE INTERNET EXPLORER -->
 
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
+        <!-- ANIMATION LOADING - CHARGEMENT -->
 
 		<div class='preloader'><div class='loaded'>&nbsp;</div></div>
-        <!--Home page style-->
+      
 
-        <!-- HEADER -->
+        <!-- HEADER - MENU -->
 
         <header id="main_menu" class="header">
             <div class="main_menu_bg navbar-fixed-top">
@@ -72,7 +72,8 @@
                         <div class="nave_menu wow fadeInUp" data-wow-duration="1s">
                             <nav class="navbar navbar-default" id="navmenu">
                                 <div class="container-fluid">
-                                    <!-- Brand and toggle get grouped for better mobile display -->
+
+                                    <!-- BOUTON HAMBURGER - Brand and toggle get grouped for better mobile display -->
                                     <div class="navbar-header">
                                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                                             <span class="sr-only">Toggle navigation</span>
@@ -80,17 +81,18 @@
                                             <span class="icon-bar"></span>
                                             <span class="icon-bar"></span>
                                         </button>
+
+                                    <!-- IMAGE - LOGO -->
                                         <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt=""/></a>
+
                                     </div>
 
-                                    <!-- MENU LIENS -->
+                                    <!-- MENU - LIENS -->
                                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
                                         <ul class="nav navbar-nav navbar-right">
                                             <li class="active"><a href="#home">Accueil</a></li>
-                                            <li><a href="#master">Masters</a></li>
-                                            <li><a href="#licence">Licences</a></li>
-                                            <li><a href="#actu">Actualités</a></li>
+                                            <li><a href="#actu">Galerie</a></li>
                                         </ul>
 
                                     </div>
@@ -101,147 +103,238 @@
                     </div>
                 </div>
             </div>
-
         </header>
 
-        <!--End of header -->
+        <!-- FIN - HEADER-->
 
 
-      <!-- VIDEO -->
+      <!-- FOND - VIDEO -->
 
+        <!-- video -->
          <div class="boitevideo">
 
             <video autoplay="true" id="home" loop>
+
+                 <!-- differents formats videos-->
                   <source src="assets/video/video-accueil.mp4" type="video/mp4" />
                   <source src="video.webm" type="video/webm" />
                   <source src="video.ogv" type="video/ogg" />
+
             </video>
 
+            <!-- Fond noir opacite - BUT assombrir video pour laisser apparaitre les informations -->
             <div class="fond">
             </div>
 
          </div>
+        <!-- fin - video -->
 
 
-            <div class="home-overlay-fluid">
-              <section id="home" class="home">
-                <div class="container">
-                    <div class="row">
-                        <div class="main_slider_area">
-                            <div class="slider">
+        <!-- Infos sur video -->
+        <div class="home-overlay-fluid">
+          <section id="home" class="home">
+            <div class="container">
+                <div class="row">
+                    <div class="main_slider_area">
+                        <div class="slider">
 
-                                <div class="single_slider wow fadeIn" data-wow-duration="2s">
-                                    <h2>DEPARTEMENT FLLASH</h2>
-                                    <p>Art & numérique à portée de main</p>
+                            <div class="single_slider wow fadeIn" data-wow-duration="2s">
+                                <h2>DÉPARTEMENT FLLASH</h2>
+                                <p>Art & numérique à portée de main</p>
+                                <!-- bouton violet -->
+                                <div class="videoscroll">
+                                    <a href="#" data-target="#actu"><i class="fa fa-chevron-down"></i></a>
                                 </div>
+                            </div>
 
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-          </div>
+        </div>
+        <!-- Fin - Infos sur video -->
 
 
      <!-- BOUTONS FORMATIONS -->
 
         <section id="register" class="register" id="master" id="licence">
-
             <div class="container-fullwidth">
+
                 <div class="col-lg-3 no-padding fondviolet1 flex-center ">
-                        <a href="tri.html">Licences Arts</a>
+                        <a href="tri.html">Licences arts</a>
                 </div>
 
                 <div class="col-lg-3 no-padding fondviolet2 flex-center">
-                    <a href="tri.html">Licences D2</a>
+                    <a href="tri.html">Master Art et managment </a>
                 </div>
     
             
                 <div class="col-lg-3 no-padding fondviolet1 flex-center">
-                    <a href="tri.html">Masters D1</a>
+                    <a href="tri.html">Master DGDI</a>
                 </div>
 
 
                 <div class="col-lg-3 no-padding fondviolet2 flex-center">
-                    <a href="tri.html">Masters D1</a>
+                    <a href="tri.html">Master scène et image</a>
                 </div>
 
             </div>
-
-
         </section>
 
+    <!-- FIN - BOUTONS FORMATIONS -->
 
 
 
         <!-- ACTUALITES -->
 
- <section id="domain" class="domainsearce" id="actu">
+        <section id="domain" class="domainsearce" id="actu">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-10 col-sm-offset-1">
                         <div class="main_somainsearrce">
                             <div class="head_title text-center wow fadeInDown" data-wow-duration="1s">
-                                <h2><ul>    <li>À LA UNE, </li>
-                                            <li class="petit">à la deux, à la trois ! </li>
+
+                                <h2>
+                                    <ul><li>À LA UNE,</li>
+                                        <li class="petit">à la deux, à la trois ! </li>
                                     </ul>
+                                    <p>Derniers travaux étudiants postés sur la plateforme.</p>
                                 </h2>
 
-                                <p>Juliette une fois deux fois trois fois... on vas voir combien de temps tu met a voir ça!</p>
                             </div>
 
                             <div class="serceoption wow fadeIn" data-wow-duration="1.5s">
-                                <div class="image_actu">
-                                    <img class="img" src="assets/images/image1.jpg">
-                                </div>
-                                <div class="image_actu">
-                                    <img class="img" src="assets/images/image2.jpg">
-                                </div>
-                                <div class="image_actu">
-                                    <img class="img" src="assets/images/image3.jpg">
-                                </div>
-                                <div class="image_actu">
-                                    <img class="img" src="assets/images/image4.jpg">
-                                </div>
-                                <div class="image_actu">
-                                    <img class="img" src="assets/images/image5.jpg">
-                                </div>
-                                <div class="image_actu">
-                                    <img class="img" src="assets/images/image6.jpg">
-                                </div>
-                            </div>
 
-                <!-- End of sercelist -->
+                             <!-- EXEMPLE TRAVAUX 1 -->
+
+
+                             <div class="single-portfolio mix col-lg-4 col-md-6 col-xs-12 m1" type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
+
+                                <div class="single-item ">
+
+                                 <!-- IMAGE DE LA DIV -->
+                                 <img src="assets/images/image4.jpg" alt="img">
+                                 <div class="single-item-content">
+
+                                     <!-- INFORMATIONS VISIBLES EN HOVER -->
+                                     <div class="portfolio-title">
+                                        <h4>Travaux 02</h4>
+                                        <span>Peintures, gravures, applications</span>
+                                    </div>
+
+                                </div> 
+                            </div> 
+
 
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+
+                        <!-- MODAL CONTENU TRAVAUX 1 -->
+
+
+                        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+
+                              <!-- HEADER DE LA MODAL -->
+
+                              <div class="modal-header">
 
 
 
+                              </div>
+
+                              <!-- CONTENU DE LA MODAL -->
+                              <div class="modal-body">
+                                <div class="container">
+
+                                  <!-- Portfolio content -->
+                                  <div class="contenu">
+                                     <div class="contenu-forme">
+
+                                        <!-- CROIX POUR FERMER -->
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                      </button>
+
+                                      <!-- INFO OEUVRE -->
+                                      <div class="col-lg-8 titre-oeuvre">
+                                          <div class="head_title text-center wow fadeInDown" data-wow-duration="1s">
+
+                                              <h2>TITRE</h2>
+                                              <h3>Noms des élèves</h3>
+
+                                              <p class="contenu-travaux">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                            </div>
+                                        </div>
+                                        <!-- GALLERIE DE TRAVAUX -->
 
 
-     <!--
+                                        <div class="portfolio-container">
 
-        <section id="domain" class="domainsearce">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-10 col-sm-offset-1">
-						<div class="main_somainsearrce">
+                                          <div class="col-lg-8 big-mama">                            
+                                            <img class="img" src="assets/images/2.png" id="image">
+                                        </div>
+
+                                        <div class="col-lg-4 little-mama">  
+                                            <img class="img" src="assets/images/2.png" id="image">
+                                        </div>
+
+                                        <div class="col-lg-4 little-mama">  
+                                            <img class="img" src="assets/images/2.png" id="image">
+                                        </div>
+
+                                        <div class="col-lg-4 little-mama">  
+                                            <img class="img" src="assets/images/2.png" id="image">
+                                        </div>
+
+                                    </div>
+
+                                    <!-- BOUTON - RETOUR -->
+
+                                    <div class="col-lg-12 title-area">
+                                       <ul>
+                                         <a class=" back" data-dismiss="modal" aria-label="Close" href="tri-test.html"> <h3> Retour </h3> </a>
+                                     </ul>
+                                 </div>
 
 
-						</div>
-					</div>
-                </div>
-            </div>
-        </section>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
 
-      -->
+                 <!-- FOOTER MODAL -->
+                 <div class="modal-footer">                   
+                 </div>
+
+             </div>
+         </div>
+     </div>
+
+     <!-- FIN  MODAL TRAVAUX 1-->
+
+     <!-- FIN EXEMPLE TRAVAUX 1 -->
 
 
-        <!-- ACTUALITES -->
+ </div>
+
+ <!-- End of sercelist -->
+
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+        <!-- FOOTER -->
 
         <section id="footer" class="footer sections">
             <div class="container">
@@ -316,27 +409,22 @@
                     </div>
                 </div>
             </div>
-        </section><!-- End of footer3 section -->
+        </section>
 
+        
 
+        <!-- Animation - footer -->
 
+        <footer id="coppyrights" class="coppyrights">
+         <div class="container-fluid">
+             <div class="row">
+                <div class="coppyright">
+                </div>
+            </div>
+        </div>
+    </footer>
 
-
-
-
-		<footer id="coppyrights" class="coppyrights">
-			<div class="container-fluid">
-			<div class="row">
-				<div class="coppyright">
-
-
-
-
-				</div>
-			</div>
-			</div>
-		</footer>
-
+    <!-- FIN - FOOTER -->
 
 
 
@@ -356,4 +444,6 @@
         <script src="assets/js/main.js"></script>
 
     </body>
+
+     <!-- FIN - BODY -->
 </html>
