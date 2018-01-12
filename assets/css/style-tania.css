@@ -140,6 +140,13 @@ max-width: 100%;
 font-size: 1.9em;
 }
 
+@media screen and (max-width: 767px) {
+.single_slider p {
+font-size:1.5rem;
+}
+
+}
+
 
 
 .videoscroll{
