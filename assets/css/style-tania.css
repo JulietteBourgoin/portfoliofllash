@@ -50,6 +50,10 @@ background-color:#2a2a2a;
 }
 }
 
+
+
+/*responsive galaxy*/
+
 .navbar-toggle{
 margin-top: 8px;
 }
@@ -76,6 +80,13 @@ box-shadow: none;
 .single_slider h2{
 font-size:3.5rem;
 font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+.single_slider h2{
+font-size:3rem;
+}
+
 }
 
 .navbar-brand{
