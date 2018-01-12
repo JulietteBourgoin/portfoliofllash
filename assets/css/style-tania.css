@@ -124,7 +124,7 @@ z-index: 2;
 }
 
 .single_slider p {
-font-family: NothingYouCouldDo;
+font-family: 'Nothing You Could Do', cursive;
 max-width: 100%;
 font-size: 1.9em;
 }
@@ -243,7 +243,7 @@ margin-top: 8px;
 .petit {
     font-size: 2rem;
     color:#6f4d99;
-    font-family: 'JosefinSans-Regular';
+    font-family: 'Josefin Sans', sans-serif;
     line-height: 3rem;
     text-align: left;
 }
@@ -280,7 +280,7 @@ img{
 }
 
 .text-center p {
-	font-family: JosefinSans-Regular;
+	font-family: 'Josefin Sans', sans-serif;
 
 }
 
@@ -347,7 +347,7 @@ STYLE - TANIA - DEUXIÈME PAGE - TRI
 
 ..portfolio-menu ul li, .portfolio-title {
 color: #5F4B8B;
-font-family: GildaDisplay-Regular;
+font-family: 'Gilda Display', serif;
 
 }
 
