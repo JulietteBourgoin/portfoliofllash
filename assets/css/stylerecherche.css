@@ -312,6 +312,11 @@ background-color: white;
 /* FORME DU CONTENU DE LA MODAL */
 /*--------------------*/
 
+.modal-backdrop.in{
+height: 2500px;
+opacity: .6;
+}
+
 h3{
 text-align: left;
 }
