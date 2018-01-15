@@ -5,8 +5,8 @@
 */
 
 
-
 body {
+font-family: 'Josefin Sans', sans-serif;
 }
 
 
@@ -52,10 +52,6 @@ background-color:#2a2a2a;
 }
 }
 
-
-
-/*responsive galaxy*/
-
 .navbar-toggle{
 margin-top: 8px;
 }
@@ -86,15 +82,24 @@ font-weight: bold;
 
 @media screen and (max-width: 767px) {
 .single_slider h2{
-font-size:2.7rem;
-}
+	font-size:2.7rem;
 
+}
 }
 
 .navbar-brand{
 height: 100%;
 }
 
+
+/* INFOS VIDEO - RESPONSIVE */
+
+@media screen and (max-width: 767px) {
+.accroche{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+}
 
 
 
@@ -304,26 +309,16 @@ img{
 
 
 
-
-
-
-
-
-
-
-
 /*===============
-STYLE DE TANIA FOOTER
+STYLE - FOOTER
 =================*/
 
 
 
-
-
 .single_right_footer p {
-	font-size: 10pt;
-	text-align: justify;
-	margin: 1px;
+font-size: 10pt;
+text-align: justify;
+margin: 1px;
 }
 
 
@@ -340,36 +335,6 @@ color: #5F4B8B;
 .fo_bottom_socail > a:hover, .fo_bottom_socail  > a:focus {
 color: #5F4B8B;
 }
-}
-
-
-
-
-
-
-
-
-
-
-/*
-
-STYLE - TANIA - DEUXIÈME PAGE - TRI
-*/
-
-
-
-
-.portfolio-menu ul li, .portfolio-title {
-color: #5F4B8B;
-font-family: 'Gilda Display', serif;
-
-}
-
-
-.modal-body h3 {
-color: #5F4B8B;
-font-family: 'Gilda Display', serif;
-
 }
 
 

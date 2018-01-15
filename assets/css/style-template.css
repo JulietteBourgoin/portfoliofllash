@@ -2,12 +2,16 @@
 /*
 
 Author: Bootstrapthemes
-Author URI: http://bootstrapthemes.co
 
 */
+
+
 /* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+    STYLE - TEMPLATE RETOUCHE
+   ========================================================================== 
+*/
+
+   
 html,
 body {
     background-color: #fff;
@@ -17,9 +21,10 @@ body {
     padding: 0;
     margin-left: 0;
     margin-right: 0;
-    font-family: 'roboto', sans-serif;
     font-weight: 300;
 }
+
+
 /*==========================================
 PRE LOADER 
 ==========================================*/
@@ -97,7 +102,7 @@ p {
     margin: 0 0 15px;
 }
 a, p{
-    font-family: 'latolight';   
+    font-family: 'latolight', Josefin Sans;   
 }
 .clear {
     clear: both;
@@ -142,7 +147,7 @@ h3 {
 }
 h4,
 h5 {
-    font-family: 'latoheavy';
+    font-family: 'latoheavy', Josefin Sans;
     font-weight: 300;
     margin: 0;
     line-height: 2rem;
@@ -572,7 +577,7 @@ input:-ms-input-placeholder {
     max-width: 70%;
     font-size: 2.375rem;
     margin: 10px auto;
-    font-family: 'latoheavy_italic';
+    font-family: 'latoheavy_italic', Josefin Sans;
     line-height: 45px;
     color:#fff;
 }
@@ -580,7 +585,7 @@ input:-ms-input-placeholder {
 .single_slider h2{
     color:#fff;
     font-size:4.525rem;
-    font-family: 'latobold';
+    font-family: 'latobold',Josefin Sans;
     margin-bottom:50px;
 }
 
@@ -642,14 +647,12 @@ input:-ms-input-placeholder {
 .head_title h2{
     font-size: 1.5rem;
     color:#383737;
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'latoheavy';
+    font-family: 'latoheavy', Josefin Sans;
 }
 .head_title p{
     font-size:1rem ;
     color:#a2a2a2;
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'latolight';
+    font-family: 'latolight', Josefin Sans;
 }
 .input-group-addon {
     padding: 6px 12px;
@@ -836,26 +839,22 @@ input:-ms-input-placeholder {
 .single_pricing footer.pricing_footer h3{
     font-size:1.8975rem;
     margin-bottom:0px;
-    font-family: 'Josefin Sans', sans-serif;
-	font-family: 'latobold';
+	font-family: 'latobold', Josefin Sans;
 }
 .single_pricing footer.pricing_footer h3 span.dolor{
     font-size:1.3rem;
-    font-family: 'Josefin Sans', sans-serif;
-	font-family: 'latoheavy';
+	font-family: 'latoheavy', Josefin Sans;
 }
 .single_pricing footer.pricing_footer h3 span.month{
     font-size:0.8125rem;
-    font-family: 'Josefin Sans', sans-serif;
-	font-family: 'latoregular';
+	font-family: 'latoregular', Josefin Sans;
 	
 }
 .single_pricing footer.pricing_footer a{
     font-size:0.9875rem;
     color:#282828;
     margin-top:20px;
-    font-family: 'Josefin Sans', sans-serif;
-	font-family: 'latobold';
+	font-family: 'latobold', Josefin Sans;
 }
 .single_pricing footer.pricing_footer .separetor_one{
     border:3px solid #f9d423;
@@ -887,14 +886,12 @@ input:-ms-input-placeholder {
 }
 .abouts_area .single_about h3{
     font-size:2.1875rem;
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'latosemibold';
+    font-family: 'latosemibold', Josefin Sans;
         
 }
 .abouts_area .single_about p{
     font-size:1.125rem;
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'latothin';
+    font-family: 'latothin', Josefin Sans;
         
 }
 
@@ -1027,8 +1024,7 @@ input:-ms-input-placeholder {
 }
 .footer .footer_menu li a{
     font-size:0.8125rem;
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'latomedium';
+    font-family: 'latomedium', Josefin Sans;
 	padding: 0px 10px;
 	float:right;
 }
@@ -1050,6 +1046,16 @@ i:hover{
     border-right:1px solid #686868;
     margin-top:20px;   
 }
+
+/* FOOTER - RESPONSIVE */
+
+@media screen and (max-width: 767px) {
+.footer .fo_bottom_right{
+    border: none;
+}
+}
+
+
 
 .footer .fo_bottom_socail{
     margin-top:20px;

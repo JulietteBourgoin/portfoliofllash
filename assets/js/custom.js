@@ -1,4 +1,10 @@
 /**	
+
+
+
+	JS _ TEMPLATE
+
+
 	* Template Name: Rex
 	* Version: 1.0	
 	* Template Scripts
