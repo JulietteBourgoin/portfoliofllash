@@ -1,4 +1,13 @@
 
+    /*---------------------------------------------*
+     * JS - RECHERCHE 
+
+     /**!
+ 	* @author - source - KunkaLabs Limited.
+ 	      
+     ---------------------------------------------*/
+
+
 
 (function($, undf){
 	'use strict';
@@ -2085,7 +2094,3 @@
 	
 })(jQuery);
 
-/**!
- * MixItUp v2.1.10
- * @author - source - KunkaLabs Limited.
- */
